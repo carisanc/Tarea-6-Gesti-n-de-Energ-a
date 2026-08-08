@@ -70,6 +70,15 @@ Funciones principales:
    sistema:
    - `pio device monitor`
 
+## Resultados
+
+Link del video: https://youtu.be/e5kmFtN0DYE
+
+| Modo Light Sleep | Modod Wake Up |
+|---|---|
+| <img width="1002" height="588" alt="Captura de pantalla 2026-08-07 a la(s) 21 37 49" src="https://github.com/user-attachments/assets/427291c9-e9db-48e4-8351-530c6aa464e0" /> | <img width="1008" height="587" alt="Captura de pantalla 2026-08-07 a la(s) 21 38 06" src="https://github.com/user-attachments/assets/8ed10489-3625-4b00-826e-f49d2a5d188b" />
+ |
+
 ## Autor
 
 Carolina Sánchez
