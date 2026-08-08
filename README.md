@@ -72,4 +72,4 @@ Funciones principales:
 
 ## Autor
 
-Jhony Choez
+Carolina Sánchez
