@@ -1,10 +1,10 @@
 #include <Arduino.h>
 #include "esp_sleep.h"
 
-// ---------- PINES ----------
+// PINES
 const uint8_t PIN_LED_ESTADO = 2;    // LED indicador (activo / dormido)
 
-// ---------- TIEMPOS ----------
+// TIEMPOS 
 const uint32_t TIEMPO_ACTIVO_MS   = 8000;              // 8 s de tarea activa
 const uint64_t TIEMPO_SLEEP_US    = 12ULL * 1000000ULL; // 12 s de light sleep
 
@@ -33,7 +33,6 @@ void loop() {
   reportarCausaDespertar(); // 3. informa por qué despertó
 }
 
-// =====================================================================
 void configurarPines() {
   pinMode(PIN_LED_ESTADO, OUTPUT);
   digitalWrite(PIN_LED_ESTADO, LOW);
