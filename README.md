@@ -23,8 +23,9 @@ Todo el estado del sistema se reporta también por el **monitor serial**
 ```
 src/
  └── main.cpp        # Lógica principal (setup, loop y funciones auxiliares)
-platformio.ini        # Configuración del entorno ESP32 + Arduino framework
-diagram.json           # Diagrama de simulación para Wokwi
+platformio.ini       # Configuración del entorno ESP32 + Arduino framework
+diagram.json         # Diagrama de simulación para Wokwi
+wokwi.toml           # Archivo de configuración de Wokwi
 ```
 
 Funciones principales:
